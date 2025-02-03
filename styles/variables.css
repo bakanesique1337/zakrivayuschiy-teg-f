@@ -1,1 +1,77 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    /* fonts */
+    --display-font: "PressStart2P", ui-monospace, "Courier New", Courier,
+    monospace;
+    --main-font: 'Inter', ui-sans-serif, 'Arial', sans-serif;
+
+    /* text weights */
+    --card-title-font-weight: 700;
+    --card-text-font-weight: 400;
+
+    /* text sizes */
+    --text-small: 14px;
+    --text-medium: 18px;
+
+    /* colors */
+    --background-color: #FFFFFF;
+    --main-color: #000000;
+    --button-text-color: var(--background-color);
+    --heart-contour-color: var(--main-color);
+    --heart-fill-color: #FF0000;
+
+    --opacity-half: 0.6;
+
+    /* borders */
+    --frame-border: solid var(--main-color) 2px;
+
+    /* shadows */
+    --text-shadow:
+            -1px 0 var(--background-color),
+            0 1px var(--background-color),
+            1px 0 var(--background-color),
+            0 -1px var(--background-color);
+    --like-shadow: 2px 2px 0 0 var(--main-color);
+
+    /* background */
+    --background-gradient:
+            repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
+            repeating-linear-gradient(0deg, #d3d3d3, transparent 2px),
+            linear-gradient(#e7e7e7 10%, #1a1a1a);
+
+    /* animations */
+    --animate-transition: 0.3s ease;
+    --animate-heart-transition: 0.3s linear;
+    --animate-heart-contour-transition: 0.1s linear;
+    --animate-slide-hover: 0.5s ease-in-out;
+    --animate-bump: 0.5s infinite ease-in-out reverse;
+    --animate-pulse: 0.3s 0.1s ease-in alternate;
+    --animate-flash: 0.3s 0.3s ease-in alternate;
+
+    /* animation delays */
+    --heart-core-delay: 0.03s;
+    --heart-main-body-delay: 0.05s;
+
+    /* desktop first */
+
+    --content-width: 700px;
+    --content-bottom-margin: 6.56rem;
+
+    /* header sizes */
+    --header-title-font-size: clamp(3.0625rem, 0rem + 13vw, 4.0625rem);
+    --header-subtitle-font-size: clamp(0.875rem, -0.8477rem + 8.0357vw, 1.4375rem);
+    --header-margin-top: 6.37rem;
+    --header-margin-bottom: 6.5rem;
+    --header-padding-top: 8.5rem;
+
+    /* card sizes */
+    --card-title-padding: 0.19rem 0.63rem;
+
+    /* button sizes */
+    --button-padding-block: 0.78rem;
+    --button-padding-inline: 2.31rem;
+
+    /* modal sizes */
+    --modal-horizontal-padding: 30px;
+    --modal-width: 353px;
+}
