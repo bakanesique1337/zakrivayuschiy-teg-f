@@ -75,3 +75,18 @@
     --modal-horizontal-padding: 30px;
     --modal-width: 353px;
 }
+
+@media (width <= 375px) {
+    :root {
+        --content-width: 100%;
+        --header-padding-top: 7.5rem;
+        --card-title-padding: 0.25rem 0.62rem 0.38rem 0.63rem;
+        --content-bottom-margin: 6.37rem;
+        --modal-horizontal-padding: 42px;
+        --modal-width: 341px;
+    }
+
+    .main__save-button {
+        flex-direction: column;
+    }
+}

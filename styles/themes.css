@@ -49,29 +49,6 @@
     /* animation delays */
     --heart-core-delay: 0.03s;
     --heart-main-body-delay: 0.05s;
-
-    /* desktop first */
-
-    --content-width: 700px;
-    --content-bottom-margin: 6.56rem;
-
-    /* header sizes */
-    --header-title-font-size: clamp(3.0625rem, 0rem + 13vw, 4.0625rem);
-    --header-subtitle-font-size: clamp(0.875rem, -0.8477rem + 8.0357vw, 1.4375rem);
-    --header-margin-top: 6.37rem;
-    --header-margin-bottom: 6.5rem;
-    --header-padding-top: 8.5rem;
-
-    /* card sizes */
-    --card-title-padding: 0.19rem 0.63rem;
-
-    /* button sizes */
-    --button-padding-block: 0.78rem;
-    --button-padding-inline: 2.31rem;
-
-    /* modal sizes */
-    --modal-horizontal-padding: 30px;
-    --modal-width: 353px;
 }
 
 :root.theme-dark {
@@ -118,29 +95,6 @@
     /* animation delays */
     --heart-core-delay: 0.03s;
     --heart-main-body-delay: 0.05s;
-
-    /* desktop first */
-
-    --content-width: 700px;
-    --content-bottom-margin: 6.56rem;
-
-    /* header sizes */
-    --header-title-font-size: clamp(3.0625rem, 0rem + 13vw, 4.0625rem);
-    --header-subtitle-font-size: clamp(0.875rem, -0.8477rem + 8.0357vw, 1.4375rem);
-    --header-margin-top: 6.37rem;
-    --header-margin-bottom: 6.5rem;
-    --header-padding-top: 8.5rem;
-
-    /* card sizes */
-    --card-title-padding: 0.19rem 0.63rem;
-
-    /* button sizes */
-    --button-padding-block: 0.78rem;
-    --button-padding-inline: 2.31rem;
-
-    /* modal sizes */
-    --modal-horizontal-padding: 30px;
-    --modal-width: 353px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -188,28 +142,5 @@
         /* animation delays */
         --heart-core-delay: 0.03s;
         --heart-main-body-delay: 0.05s;
-
-        /* desktop first */
-
-        --content-width: 700px;
-        --content-bottom-margin: 6.56rem;
-
-        /* header sizes */
-        --header-title-font-size: clamp(3.0625rem, 0rem + 13vw, 4.0625rem);
-        --header-subtitle-font-size: clamp(0.875rem, -0.8477rem + 8.0357vw, 1.4375rem);
-        --header-margin-top: 6.37rem;
-        --header-margin-bottom: 6.5rem;
-        --header-padding-top: 8.5rem;
-
-        /* card sizes */
-        --card-title-padding: 0.19rem 0.63rem;
-
-        /* button sizes */
-        --button-padding-block: 0.78rem;
-        --button-padding-inline: 2.31rem;
-
-        /* modal sizes */
-        --modal-horizontal-padding: 30px;
-        --modal-width: 353px;
     }
 }
