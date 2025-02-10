@@ -1,5 +1,7 @@
 # Закрывающий тег
 
+https://github.com/bakanesique1337/zakrivayuschiy-teg-f
+
 ## Project Overview
 
 *Закрывающий тег* is a frontend development project focused on layout design with animations, theme switching (dark and light modes), and various decorative elements.
